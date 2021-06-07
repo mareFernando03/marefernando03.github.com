@@ -7,8 +7,17 @@ a{
     color: #00B4DB;
 }
 
+a:hover{
+    opacity: 0.8;
+}
+
 .titulo{
     text-transform: uppercase;
+    text-align: center;
+}
+
+.address{
+    
 }
 
 .container {
@@ -32,6 +41,27 @@ a{
     background-color: white;
     box-shadow: 0px 0px 60px 0px rgba(0,0,0,0.75);
     border-radius: 4px;
+    position: relative;
+    padding: 1.8em;
+}
+
+.actions{
+    position: absolute;
+    top: 1em;
+    right: 1em;
+}
+
+.close{
+    height: 40px;
+    width: 40px;
+    color: white;
+    border-radius: 50%;
+    background-color: #00B4DB ;
+    font-weight: 300;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .paragraph{
@@ -65,6 +95,7 @@ a{
 }
 
 .title-item{
+    font-size: 2.5em;
     border-bottom: rgb(67, 117, 255) solid 3px;
     padding:0 0 1em;
 }
@@ -74,4 +105,5 @@ a{
     color: white;
     padding: 10px;
     border-radius: 4px;
+    margin-right: 0.5em;
 }
